@@ -52,19 +52,21 @@ print("Minimum:", min_val)
 
 # Program to count the frequency of each element in a list
 
-def count_frequency_with_count(lst):
-    return {item: lst.count(item) for item in set(lst)}
-
-def count_frequency_without_count(lst):
-    frequency_dict = {}
+def count_with_builtin(lst):
+    frequency = {}
     for item in lst:
-        if item in frequency_dict:
-            frequency_dict[item] += 1
-        else:
-            frequency_dict[item] = 1
-    return frequency_dict
+        frequency[item] = lst.count(item)  # Using count()
+    return frequency
 
-# Testing the functions
-sample_list = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
-print("Frequency (using count function):", count_frequency_with_count(sample_list))
-print("Frequency (without using count function):", count_frequency_without_count(sample_list))
+def count_without_builtin(lst):
+    frequency = {}
+    for item in lst:
+        if item in frequency:
+            frequency[item] += 1  # Increment count
+        else:
+            frequency[item] = 1  # Initialize count
+    return frequency
+
+my_list = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+print("Using count():", count_with_builtin(my_list))
+print("Without using count():", count_without_builtin(my_list))
