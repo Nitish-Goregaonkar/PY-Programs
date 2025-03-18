@@ -7,3 +7,7 @@ print("Empty Dictionary using dict():", empty_dict_2)
 # Creating a dictionary with initial values 
 student_marks = {'Alice': 85, 'Bob': 90, 'Charlie': 78} 
 print("Dictionary with Initial Values:", student_marks)
+
+# Using the dict() constructor 
+student_marks = dict(Alice=85, Bob=90, Charlie=78) 
+print("Dictionary with dict() Constructor:", student_marks)
