@@ -1,0 +1,9 @@
+# Using curly braces 
+empty_dict = {} 
+print("Empty Dictionary:", empty_dict) 
+# Using the dict() function 
+empty_dict_2 = dict() 
+print("Empty Dictionary using dict():", empty_dict_2) 
+# Creating a dictionary with initial values 
+student_marks = {'Alice': 85, 'Bob': 90, 'Charlie': 78} 
+print("Dictionary with Initial Values:", student_marks)
