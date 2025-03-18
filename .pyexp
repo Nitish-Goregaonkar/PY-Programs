@@ -24,3 +24,12 @@ print("Student Marks:", student_marks)
 # Print each key-value pair 
 for student, marks in student_marks.items(): 
     print(f"{student}: {marks}")
+
+
+    # Print only keys 
+print("Keys:", student_marks.keys()) 
+# Print only values 
+print("Values:", student_marks.values()) 
+from pprint import pprint 
+# Pretty-print the dictionary 
+pprint(student_marks)
