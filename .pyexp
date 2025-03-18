@@ -33,3 +33,13 @@ print("Values:", student_marks.values())
 from pprint import pprint 
 # Pretty-print the dictionary 
 pprint(student_marks)
+
+# Sample dictionary 
+student = { 
+'name': 'Alice', 
+'age': 25, 
+'grades': {'Math': 90, 'Science': 85} 
+} 
+# Accessing values 
+print("Name:", student['name']) 
+print("Age:", student['age']) 
