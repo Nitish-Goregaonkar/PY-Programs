@@ -43,3 +43,9 @@ student = {
 # Accessing values 
 print("Name:", student['name']) 
 print("Age:", student['age']) 
+# Using get() to access values 
+print("Name:", student.get('name')) 
+print("Country:", student.get('country')) 
+# Accessing a nested dictionary value 
+math_grade = student['grades']['Math'] 
+print("Math Grade:", math_grade) 
