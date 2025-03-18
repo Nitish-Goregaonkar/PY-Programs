@@ -68,3 +68,8 @@ print("Dictionary after adding multiple items:", student_marks)
 # Alternatively, using a list of tuples 
 student_marks.update([('Frank', 76), ('Grace', 81)]) 
 print("Dictionary after adding more items:", student_marks)
+# New items to add 
+new_students = {'Henry': 84, 'Ivy': 79} 
+# Merging dictionaries with unpacking 
+student_marks = {**student_marks, **new_students} 
+print("Dictionary after merging with new students:", student_marks)
