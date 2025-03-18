@@ -11,3 +11,12 @@ print("Dictionary with Initial Values:", student_marks)
 # Using the dict() constructor 
 student_marks = dict(Alice=85, Bob=90, Charlie=78) 
 print("Dictionary with dict() Constructor:", student_marks)
+
+
+# Using fromkeys() to create dictionary with default value 
+keys = ['Alice', 'Bob', 'Charlie'] 
+student_dict = dict.fromkeys(keys, 0) 
+print("Dictionary with fromkeys():", student_dict)
+
+student_marks = {'Alice': 85, 'Bob': 90, 'Charlie': 78} 
+print("Student Marks:", student_marks)
