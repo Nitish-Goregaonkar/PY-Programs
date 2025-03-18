@@ -20,3 +20,7 @@ print("Dictionary with fromkeys():", student_dict)
 
 student_marks = {'Alice': 85, 'Bob': 90, 'Charlie': 78} 
 print("Student Marks:", student_marks)
+
+# Print each key-value pair 
+for student, marks in student_marks.items(): 
+    print(f"{student}: {marks}")
