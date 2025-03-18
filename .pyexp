@@ -54,4 +54,17 @@ print("Keys:", student.keys())
 print("Values:", student.values()) 
 print("Items:", student.items())
 for key, value in student.items(): 
-print(f"{key}: {value}")
+    print(f"{key}: {value}")
+
+# Sample dictionary 
+student_marks = {'Alice': 85, 'Bob': 90} 
+# Adding a new item 
+student_marks['Charlie'] = 78 
+print("Dictionary after adding Charlie:", student_marks)
+# Adding multiple items using a dictionary 
+student_marks.update({'David': 92, 'Eve': 88}) 
+print("Dictionary after adding multiple items:", student_marks) 
+ 
+# Alternatively, using a list of tuples 
+student_marks.update([('Frank', 76), ('Grace', 81)]) 
+print("Dictionary after adding more items:", student_marks)
