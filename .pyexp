@@ -125,3 +125,29 @@ values = [90, 76, 88]
  
 student_dict = dict(zip(keys, values)) 
 print("Converted Dictionary:", student_dict) 
+
+
+# Sample nested dictionary 
+students = { 
+'Alice': {'Math': 85, 'Science': 90}, 
+'Bob': {'Math': 78, 'Science': 88} 
+} 
+# Adding a new subject for Alice 
+students['Alice']['English'] = 92 
+ 
+# Adding a new student with their subjects 
+students['Charlie'] = {'Math': 82, 'Science': 87, 'English': 91} 
+ 
+print("Nested Dictionary after adding items:") 
+print(students)
+
+
+# Removing a subject from Bob 
+del students['Bob']['Science'] 
+ 
+# Removing a student entirely 
+removed_student = students.pop('Charlie') 
+ 
+print("Nested Dictionary after removing items:") 
+print(students) 
+print("Removed student:", removed_student) 
