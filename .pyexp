@@ -103,3 +103,10 @@ print("Dictionary after deleting Alice:", student_marks)
 removed_value = student_marks.pop('Bob', 'Key not found') 
 print("Removed value:", removed_value) 
 print("Dictionary after popping Bob:", student_marks)
+
+# Sample dictionary 
+student_marks = {'Alice': 85, 'Bob': 90, 'Charlie': 78} 
+# Deleting the last item 
+last_item = student_marks.popitem() 
+print("Last item removed:", last_item) 
+print("Dictionary after popitem:", student_marks)
