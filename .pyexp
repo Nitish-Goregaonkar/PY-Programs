@@ -110,3 +110,13 @@ student_marks = {'Alice': 85, 'Bob': 90, 'Charlie': 78}
 last_item = student_marks.popitem() 
 print("Last item removed:", last_item) 
 print("Dictionary after popitem:", student_marks)
+
+# Clearing all items 
+student_marks.clear() 
+print("Dictionary after clear:", student_marks)
+# Deleting the dictionary 
+del student_marks 
+# print(student_marks) # This would raise a NameError
+student_list = [('Alice', 90), ('Bob', 76), ('Charlie', 88)] 
+student_dict = dict(student_list) 
+print("Converted Dictionary:", student_dict) 
