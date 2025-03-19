@@ -120,3 +120,8 @@ del student_marks
 student_list = [('Alice', 90), ('Bob', 76), ('Charlie', 88)] 
 student_dict = dict(student_list) 
 print("Converted Dictionary:", student_dict) 
+keys = ['Alice', 'Bob', 'Charlie'] 
+values = [90, 76, 88] 
+ 
+student_dict = dict(zip(keys, values)) 
+print("Converted Dictionary:", student_dict) 
