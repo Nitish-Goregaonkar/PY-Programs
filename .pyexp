@@ -91,3 +91,8 @@ new_students = {'Eve': 81, 'Frank': 75}
 # Merging two dictionaries 
 student_marks.update(new_students) 
 print("Dictionary after merging:", student_marks)
+
+# Sample dictionary 
+student_marks = {'Alice': 85, 'Bob': 90, 'Charlie': 78} 
+# Deleting a specific item 
+del student_marks['Alice']
