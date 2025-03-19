@@ -81,3 +81,13 @@ student_marks = {'Alice': 85, 'Bob': 90}
 student_marks['Alice'] = 88 # Update existing key 
 student_marks['Charlie'] = 78 # Add new key 
 print("Updated Dictionary:", student_marks)
+
+# Updating multiple items with update() 
+student_marks.update({'Bob': 92, 'David': 85}) 
+print("Dictionary after update:", student_marks) 
+# Another dictionary 
+new_students = {'Eve': 81, 'Frank': 75} 
+ 
+# Merging two dictionaries 
+student_marks.update(new_students) 
+print("Dictionary after merging:", student_marks)
