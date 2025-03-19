@@ -96,3 +96,10 @@ print("Dictionary after merging:", student_marks)
 student_marks = {'Alice': 85, 'Bob': 90, 'Charlie': 78} 
 # Deleting a specific item 
 del student_marks['Alice']
+print("Dictionary after deleting Alice:", student_marks)
+
+
+# Deleting a specific item using pop() 
+removed_value = student_marks.pop('Bob', 'Key not found') 
+print("Removed value:", removed_value) 
+print("Dictionary after popping Bob:", student_marks)
