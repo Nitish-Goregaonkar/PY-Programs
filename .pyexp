@@ -151,3 +151,10 @@ removed_student = students.pop('Charlie')
 print("Nested Dictionary after removing items:") 
 print(students) 
 print("Removed student:", removed_student) 
+
+# Updating Alice's Math score 
+students['Alice']['Math'] = 95 
+# Updating Bob's score by adding a new subject 
+students['Bob']['English'] = 80 
+print("Nested Dictionary after updating items:") 
+print(students)
