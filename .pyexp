@@ -73,3 +73,11 @@ new_students = {'Henry': 84, 'Ivy': 79}
 # Merging dictionaries with unpacking 
 student_marks = {**student_marks, **new_students} 
 print("Dictionary after merging with new students:", student_marks)
+
+# Sample dictionary 
+student_marks = {'Alice': 85, 'Bob': 90} 
+ 
+# Updating an existing key and adding a new one 
+student_marks['Alice'] = 88 # Update existing key 
+student_marks['Charlie'] = 78 # Add new key 
+print("Updated Dictionary:", student_marks)
