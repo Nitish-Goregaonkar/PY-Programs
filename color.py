@@ -13,3 +13,12 @@ for i in range(1, 4):  # Outer loop
 numbers=[1,2,3,4,5,6,7,8,9,10]
 even_no=[num for num in numbers if num %2==0]
 print("even numbers:", even_no)
+
+n1=int(input("enter a number:"))
+n2=int(input("enter a number:"))
+n3=int(input("enter a number:"))
+avg1=(n1+n2)/2
+avg2=(n2+n3)/2
+avg3=(n3+n1)/2
+maxi=max(avg1,avg2,avg3)
+print(maxi)
