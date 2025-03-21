@@ -49,3 +49,9 @@ for num in range(1,11):
     if num==5:
         continue
     print(num)
+
+
+
+x=int(input("enter an number:-"))
+ans=x**0.5
+print("square root of an number is:-",ans)
