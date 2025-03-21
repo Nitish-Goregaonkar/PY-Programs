@@ -22,3 +22,11 @@ avg2=(n2+n3)/2
 avg3=(n3+n1)/2
 maxi=max(avg1,avg2,avg3)
 print(maxi)
+
+
+string1=input("enter a string:")
+if(string1==string1[::-1]):
+    print("its palindrome ")
+else:
+    print("not a palindrome")
+
