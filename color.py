@@ -37,4 +37,5 @@ def factorial(n):
     else:
         return n * factorial(n-1)
     
-print(factorial(10))
+print("the factorial of n is :",factorial(10))
+
