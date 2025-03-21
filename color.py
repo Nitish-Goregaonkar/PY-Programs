@@ -30,3 +30,11 @@ if(string1==string1[::-1]):
 else:
     print("not a palindrome")
 
+
+def factorial(n):
+    if n==0:
+        return 1
+    else:
+        return n * factorial(n-1)
+    
+print(factorial(10))
