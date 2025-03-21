@@ -40,3 +40,8 @@ def factorial(n):
     
 print("the factorial of n is :",factorial(10))
 
+
+m=int(input("enter a number"))
+for i in range(1,11):
+    print(m,"*",i,"=",m*i)
+
