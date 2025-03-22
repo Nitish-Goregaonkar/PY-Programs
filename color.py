@@ -65,3 +65,4 @@ for x in range (1,g):
 if sum==g:
    print("its the perfect number",g) 
 else:
+    print("its not a perfect number",g)
