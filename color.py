@@ -62,3 +62,5 @@ sum=0
 for x in range (1,g):
     if g%2==0:
         sum=sum+i
+if sum==g:
+    
