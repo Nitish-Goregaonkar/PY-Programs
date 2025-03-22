@@ -60,3 +60,5 @@ print("square root of an number is:-",ans)
 g=int(input("enter a number"))
 sum=0
 for x in range (1,g):
+    if g%2==0:
+        sum=sum+i
