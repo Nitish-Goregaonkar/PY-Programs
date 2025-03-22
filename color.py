@@ -55,3 +55,6 @@ for num in range(1,11):
 x=int(input("enter an number:-"))
 ans=x**0.5
 print("square root of an number is:-",ans)
+
+
+g=int(input("enter a number"))
