@@ -5,3 +5,4 @@ for x in range (1,g):
          sum=sum+i
 if sum==g:
       print("its the perfect number",g) 
+else:
