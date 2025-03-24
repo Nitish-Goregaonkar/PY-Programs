@@ -7,3 +7,7 @@ if sum==g:
       print("its the perfect number",g) 
 else:
      print("its not a perfect number",g)
+
+
+
+x=int(input("enter an number:-"))
