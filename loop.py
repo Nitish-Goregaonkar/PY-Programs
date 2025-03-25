@@ -28,4 +28,5 @@ i += 1
 # Example: Nested for loop to print multiplication table 
 for u in range(1, 6): 
      for x in range(1, 6): 
-          
+          print(f"{u} x {x} = {u * x}", end='\t') 
+     print()   
