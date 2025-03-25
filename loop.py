@@ -17,4 +17,6 @@ print("square root of an number is:-",ans)
 
 # Example: Nested while loop to print a right-angle triangle
 rows = 5 
+i = 1 
 
+           
