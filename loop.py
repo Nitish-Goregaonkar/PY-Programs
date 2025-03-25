@@ -19,5 +19,6 @@ print("square root of an number is:-",ans)
 rows = 5 
 i = 1 
 while i <= rows:
+      j = 1 
       
            
