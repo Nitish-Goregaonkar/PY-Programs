@@ -22,4 +22,5 @@ while i <= rows:
       j = 1 
       while j <= i: 
        print()  
+i += 1
            
