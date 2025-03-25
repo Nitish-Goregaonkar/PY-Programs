@@ -24,3 +24,5 @@ while i <= rows:
        print()  # New line after each row 
 i += 1
            
+
+# Example: Nested for loop to print multiplication table 
