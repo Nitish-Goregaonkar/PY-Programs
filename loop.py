@@ -21,6 +21,6 @@ i = 1
 while i <= rows:
       j = 1 
       while j <= i: 
-       print()  
+       print()  # New line after each row 
 i += 1
            
