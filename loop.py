@@ -42,3 +42,4 @@ def pascals_triangle(n):
      for row in triangle:
            print(" ".join(map(str, row)))
 n = int(input("Enter number of rows: "))
+pascals_triangle(n)
