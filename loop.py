@@ -34,6 +34,10 @@ for u in range(1, 6):
 
 
 
+
+
+
+
 def pascals_triangle(n):
      triangle = [[1] * (i + 1) for i in range(n)]
      for i in range(2, n):
