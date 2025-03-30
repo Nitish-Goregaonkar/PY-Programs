@@ -44,3 +44,16 @@ class StudentManagementSystem:
 
 sms = StudentManagementSystem()
 
+while True:
+    print("\n1. Add 2. Update 3. Remove 4. View 5. Avg Grade 6. Exit")
+    choice = input("Choose: ")
+    
+    if choice == "1":
+        sms.add_student(input("ID: "), input("Name: "), input("Age: "), list(map(int, input("Enter exactly 3 grades separated by space: ").split())))
+    elif choice == "2":
+        sms.update_student(input("ID: "), input("Name: ") or None, input("Age: ") or None, list(map(int, input("Enter exactly 3 grades separated by space (or press enter to skip): ").split())) if input("Grades: ") else None)
+    elif choice == "3":
+        sms.remove_student(input("ID: "))
+    elif choice == "4":
+        sms.view_students()
+    
