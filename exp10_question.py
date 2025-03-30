@@ -28,4 +28,9 @@ class BankAccount:
 account_number1 = input("Enter first account number: ")
 balance1 = float(input("Enter first account balance: "))
 
+account_number2 = input("Enter second account number: ")
+balance2 = float(input("Enter second account balance: "))
+
+account1 = BankAccount(account_number1, balance1)
+account2 = BankAccount(account_number2, balance2)
 
