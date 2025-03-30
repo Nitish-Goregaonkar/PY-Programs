@@ -56,4 +56,9 @@ while True:
         sms.remove_student(input("ID: "))
     elif choice == "4":
         sms.view_students()
-    
+    elif choice == "5":
+        sms.average_grade(input("ID: "))
+    elif choice == "6":
+        break
+    else:
+        print("Invalid choice!")
