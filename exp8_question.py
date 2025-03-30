@@ -24,4 +24,23 @@ class StudentManagementSystem:
         else:
             print("Student not found!")
 
-   
+    def remove_student(self, student_id):
+        if self.students.pop(student_id, None):
+            print("Student removed!")
+        else:
+            print("Student not found!")
+
+    def view_students(self):
+        for id, data in self.students.items():
+            print(f"ID: {id}, Name: {data['name']}, Age: {data['age']}, Grades: {data['grades']}")
+
+    def average_grade(self, student_id):
+        if student_id in self.students:
+            grades = self.students[student_id]["grades"]
+            avg_grade = sum(grades) / 3
+            print(f"Average Grade: {avg_grade:.2f}")
+        else:
+            print("Student not found!")
+
+sms = StudentManagementSystem()
+
