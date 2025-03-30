@@ -27,3 +27,10 @@ students = input("Enter student names (comma separated): ").split(",")
 teacher = input("Enter teacher's name (optional): ") or None
 room_number = input("Enter room number (optional): ") or None
 
+kwargs = {}
+if teacher:
+    kwargs["teacher"] = teacher
+if room_number:
+    kwargs["room_number"] = room_number
+
+register_students(class_name, *students, **kwargs)
