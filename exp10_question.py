@@ -16,3 +16,12 @@ book = Book(name, author, price)
 book.display_details()
 
 
+# BankAccount class with user input and conditional balance assignment
+class BankAccount:
+    def __init__(self, account_number, balance=1000):
+        self.account_number = account_number
+        self.balance = max(balance, 100)
+    
+    def display_account(self):
+        print(f"Account Number: {self.account_number}, Balance: {self.balance}")
+
