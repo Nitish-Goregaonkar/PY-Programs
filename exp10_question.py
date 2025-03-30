@@ -34,3 +34,5 @@ balance2 = float(input("Enter second account balance: "))
 account1 = BankAccount(account_number1, balance1)
 account2 = BankAccount(account_number2, balance2)
 
+account1.display_account()
+account2.display_account()
