@@ -25,3 +25,7 @@ class BankAccount:
     def display_account(self):
         print(f"Account Number: {self.account_number}, Balance: {self.balance}")
 
+account_number1 = input("Enter first account number: ")
+balance1 = float(input("Enter first account balance: "))
+
+
