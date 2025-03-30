@@ -22,3 +22,8 @@ def register_students(class_name, *students, **details):
     for key, value in details.items():
         print(f"{key.capitalize()}: {value}")
 
+class_name = input("Enter class name: ")
+students = input("Enter student names (comma separated): ").split(",")
+teacher = input("Enter teacher's name (optional): ") or None
+room_number = input("Enter room number (optional): ") or None
+
