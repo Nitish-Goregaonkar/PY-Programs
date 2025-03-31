@@ -10,7 +10,7 @@ print("Maximum:", find_max(num1, num2))
 # Function to count vowels in a string
 def count_vowels(s):
     return sum(1 for char in s.lower() if char in "aeiou")
-
+#taking input from user
 user_string = input("Enter a string: ")
 print("Number of vowels:", count_vowels(user_string))
 
