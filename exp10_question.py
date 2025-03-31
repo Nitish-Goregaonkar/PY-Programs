@@ -35,6 +35,6 @@ balance2 = float(input("Enter second account balance: "))
 #creating the 2 objects of the bankaccount class
 account1 = BankAccount(account_number1, balance1)
 account2 = BankAccount(account_number2, balance2)
-
+#calling display method to shown the details
 account1.display_account()
 account2.display_account()
