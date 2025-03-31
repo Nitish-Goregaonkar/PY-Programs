@@ -8,8 +8,8 @@ class Book: #class
     
     def display_details(self): #displaying the information
         print(f"Book Name: {self.name}, Author: {self.author}, Price: {self.price}")
-
-name = input("Enter book name: ")
+#taking inputs from user name of the book, author of the boook and the price of the book
+name = input("Enter book name: ") 
 author = input("Enter author name: ")
 price = float(input("Enter book price: "))
 
