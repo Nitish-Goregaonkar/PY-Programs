@@ -1,8 +1,9 @@
 # Book class with user input
-class Book:
+class Book: #class
+    #creating constructor
     def __init__(self, name, author, price):
-        self.name = name
-        self.author = author
+        self.name = name #name to the name argument
+        self.author = author #author to author argument
         self.price = price
     
     def display_details(self):
