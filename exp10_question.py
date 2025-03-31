@@ -4,9 +4,9 @@ class Book: #class
     def __init__(self, name, author, price):
         self.name = name #name to the name argument
         self.author = author #author to author argument
-        self.price = price
+        self.price = price #price to price arguments
     
-    def display_details(self):
+    def display_details(self): #displaying the information
         print(f"Book Name: {self.name}, Author: {self.author}, Price: {self.price}")
 
 name = input("Enter book name: ")
