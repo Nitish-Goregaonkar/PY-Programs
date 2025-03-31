@@ -12,7 +12,7 @@ class Book: #class
 name = input("Enter book name: ") 
 author = input("Enter author name: ")
 price = float(input("Enter book price: "))
-
+#creating object of book class
 book = Book(name, author, price)
 book.display_details()
 
