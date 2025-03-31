@@ -21,7 +21,7 @@ def register_students(class_name, *students, **details):
     print("Students:", ", ".join(students) if students else "No students registered")
     for key, value in details.items():
         print(f"{key.capitalize()}: {value}")
-
+#taking the input from user
 class_name = input("Enter class name: ")
 students = input("Enter student names (comma separated): ").split(",")
 teacher = input("Enter teacher's name (optional): ") or None
