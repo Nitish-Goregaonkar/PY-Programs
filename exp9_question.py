@@ -1,7 +1,7 @@
 # Function to find the maximum of two numbers
 def find_max(a, b):
     return max(a, b)
-
+#taking input from users
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 print("Maximum:", find_max(num1, num2))
