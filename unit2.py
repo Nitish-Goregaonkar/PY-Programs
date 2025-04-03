@@ -30,3 +30,6 @@ if(string1==string1[::-1]):
     print("its palindrome")
 else:
     print("not a palindrome")
+
+
+num=input("enter string:-")
