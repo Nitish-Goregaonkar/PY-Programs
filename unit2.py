@@ -11,4 +11,14 @@ mul=int(input("Enter a number"))
 for i in range (1,11):
     print(mul,"*",i,"=",mul*i)
 
-    
+
+number=int(input("enter a number:-"))
+sum =0
+for x in range(1,number):
+    if number%x==0:
+        sum=sum+x
+if sum==number:
+    print("its a perfect number",number)
+
+else:
+    print("not a perfect number",number)
