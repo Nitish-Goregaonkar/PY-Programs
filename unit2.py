@@ -34,4 +34,6 @@ else:
 
 num=input("enter string:-")
 if(num==num[::-1]):
+    print("its palindrome")
+
     
