@@ -33,3 +33,5 @@ else:
 
 
 num=input("enter string:-")
+if(num==num[::-1]):
+    
