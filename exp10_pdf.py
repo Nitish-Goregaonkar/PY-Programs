@@ -1,9 +1,9 @@
 #default constructor 
 class Person: 
-def  init (self):
+    def  init (self):
     # Default values for attributes 
- self.name = "Unknown" 
-self.age = 0 
+    self.name = "Unknown" 
+    self.age = 0 
  
 def show_info(self): 
  print(f"Name: {self.name}, Age: {self.age}") 
