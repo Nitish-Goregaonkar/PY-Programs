@@ -25,3 +25,16 @@ print("Addition of four numbers:", math_op.add(5, 10, 15, 20))
 class Animal: 
     def sound(self): 
         return "Animal makes sound" 
+    class Dog(Animal): 
+            def sound(self): 
+                return "Bark" 
+class Cat(Animal): 
+  def sound(self): 
+      return "Meow" 
+# Testing method overriding 
+animal = Animal() 
+dog = Dog() 
+cat = Cat() 
+print("Animal sound:", animal.sound())  
+print("Dog sound:", dog.sound())       
+print("Cat sound:", cat.sound())   
