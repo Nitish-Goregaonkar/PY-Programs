@@ -19,3 +19,9 @@ math_op = MathOperations()
 print("Addition of two numbers:", math_op.add(5, 10))   
 print("Addition of three numbers:", math_op.add(5, 10, 15))  
 print("Addition of four numbers:", math_op.add(5, 10, 15, 20)) 
+
+
+#example of method overriding
+class Animal: 
+    def sound(self): 
+        return "Animal makes sound" 
