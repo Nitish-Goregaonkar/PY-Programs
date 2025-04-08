@@ -11,11 +11,3 @@ def show_info(self):
 # Creating an object with the default constructor  
 person1 = Person() 
 person1.show_info()
-
-
-
-
-
-
-
-
