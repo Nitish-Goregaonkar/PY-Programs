@@ -21,3 +21,5 @@ with open("output.txt", "w") as f:
 print("Flushing this immediately.", flush=True) 
  
 # Checking the output written to the file 
+with open("output.txt", "r") as f: 
+   
