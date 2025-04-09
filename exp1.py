@@ -2,3 +2,5 @@
 # Importing the sys module to use sys.stdout 
 import sys
 # 1. Basic usage with multiple objects 
+print("Hello", "World", "!", sep=" ", end="\n") 
+ 
