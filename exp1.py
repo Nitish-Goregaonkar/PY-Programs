@@ -10,4 +10,5 @@ print("Python", "is", "fun", sep=" - ")
 print("This is", end=" ") 
 print("still on the same line.") 
  
-#
+# 4. Redirecting the output to a file using the 'file' parameter 
+# Open a file in write mode 
