@@ -6,3 +6,4 @@ print("Hello", "World", "!", sep=" ", end="\n")
  
 # 2. Using the 'sep' parameter to separate objects with a custom separator 
 print("Python", "is", "fun", sep=" - ") 
+# 3. Using the 'end' parameter to avoid the newline and print on the same line 
