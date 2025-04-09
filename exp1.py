@@ -20,3 +20,4 @@ with open("output.txt", "w") as f:
 #time scenarios 
 print("Flushing this immediately.", flush=True) 
  
+# Checking the output written to the file 
