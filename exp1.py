@@ -18,3 +18,5 @@ with open("output.txt", "w") as f:
 # 5. Using the 'flush' parameter to force the output to be flushed 
 # Here, it won't make a visible difference, but is crucial in some real
 #time scenarios 
+print("Flushing this immediately.", flush=True) 
+ 
