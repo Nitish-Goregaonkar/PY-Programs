@@ -22,4 +22,6 @@ print("Flushing this immediately.", flush=True)
  
 # Checking the output written to the file 
 with open("output.txt", "r") as f: 
-   
+    content = f.read() 
+    print("\nContent of 'output.txt':") 
+    print(content) 
