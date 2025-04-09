@@ -5,3 +5,4 @@ import sys
 print("Hello", "World", "!", sep=" ", end="\n") 
  
 # 2. Using the 'sep' parameter to separate objects with a custom separator 
+print("Python", "is", "fun", sep=" - ") 
