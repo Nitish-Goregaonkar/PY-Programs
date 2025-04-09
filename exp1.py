@@ -12,3 +12,6 @@ print("still on the same line.")
  
 # 4. Redirecting the output to a file using the 'file' parameter 
 # Open a file in write mode 
+with open("output.txt", "w") as f: 
+    print("This will be written to a file.", file=f) 
+ 
