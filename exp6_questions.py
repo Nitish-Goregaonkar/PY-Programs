@@ -11,7 +11,6 @@ print("First element of the third inner tuple:", element)
 # Creating two tuples
 tuple1 = (5, 2, 9, 1)
 tuple2 = (8, 6, 4, 3)
-
 # Concatenating tuples
 concatenated_tuple = tuple1 + tuple2
 print("Concatenated tuple:", concatenated_tuple)
