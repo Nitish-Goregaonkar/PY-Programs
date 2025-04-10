@@ -6,3 +6,5 @@ print("Outer tuple:", outer_tuple)
 inner_tuple = outer_tuple[1]
 print("Second inner tuple:", inner_tuple)
 # Accessing an element from an inner tuple
+element = outer_tuple[2][0]
+print("First element of the third inner tuple:", element)
