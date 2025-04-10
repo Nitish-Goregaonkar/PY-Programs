@@ -8,3 +8,7 @@ print("Second inner tuple:", inner_tuple)
 # Accessing an element from an inner tuple
 element = outer_tuple[2][0]
 print("First element of the third inner tuple:", element)
+# Creating two tuples
+tuple1 = (5, 2, 9, 1)
+tuple2 = (8, 6, 4, 3)
+
