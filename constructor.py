@@ -3,4 +3,5 @@ def main():
     B=A()
     print()
     print ("accessing via object: ")
+    print('public Variable :',a.public_var)
     
