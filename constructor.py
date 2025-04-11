@@ -13,4 +13,5 @@ class A:
     #private Variable
     __private_var=1
 
-    
+    def _init_(self,str='welcome!'):
+        
