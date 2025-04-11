@@ -10,3 +10,5 @@ class A:
     # public variable
     public_var=0
 
+    #private Variable
+    
