@@ -11,4 +11,6 @@ class A:
     public_var=0
 
     #private Variable
+    __private_var=1
+
     
