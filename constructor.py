@@ -4,4 +4,4 @@ def main():
     print()
     print ("accessing via object: ")
     print('public Variable :',a.public_var)
-    
+    print()
