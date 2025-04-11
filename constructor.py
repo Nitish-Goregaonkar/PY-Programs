@@ -8,4 +8,5 @@ def main():
     # print('private variable',a.__private_var) if we uncomment this print then error will occur
 class A:
     # public variable
-    
+    public_var=0
+
