@@ -14,4 +14,13 @@ class A:
     __private_var=1
 
     def _init_(self,str='welcome!'):
-        
+        print('constructor is started')
+        print ()
+        print("constructor(): ",str)
+        print()
+        print("public variable: ", self.public_var)
+        print()
+        print("private variable:",self.__private_var)
+
+#driver code
+main()
