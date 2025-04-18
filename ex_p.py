@@ -26,7 +26,5 @@ for number in range(1, 101):
     # Check if the number is even
     if number % 2 == 0:
         sum_of_evens += number
-
 # Print the result
 print("The sum of all even numbers from 1 to 100 is:", sum_of_evens)
-
