@@ -1,7 +1,6 @@
 def find_primes(a, b):
     primes = []  # List to store prime numbers
     num = a      # Start checking from the number a
-
     while num <= b:
         if num > 1:  # Prime numbers are greater than 1
             is_prime = True
@@ -14,9 +13,7 @@ def find_primes(a, b):
             if is_prime:
                 primes.append(num)
         num += 1  # Move to the next number
-    
     return primes
-
 # Input: Two integers a and b
 a = int(input("Enter the starting number (a): "))
 b = int(input("Enter the ending number (b): "))
