@@ -21,7 +21,6 @@ b = int(input("Enter the ending number (b): "))
 print("Prime numbers between", a, "and", b, "are:", find_primes(a, b))
 # Initialize a variable to store the sum
 sum_of_evens = 0
-
 # Loop through numbers from 1 to 100
 for number in range(1, 101):
     # Check if the number is even
