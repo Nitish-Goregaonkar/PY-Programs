@@ -17,12 +17,8 @@ def find_primes(a, b):
 # Input: Two integers a and b
 a = int(input("Enter the starting number (a): "))
 b = int(input("Enter the ending number (b): "))
-
 # Find and print prime numbers in the range [a, b]
 print("Prime numbers between", a, "and", b, "are:", find_primes(a, b))
-
-
-
 # Initialize a variable to store the sum
 sum_of_evens = 0
 
