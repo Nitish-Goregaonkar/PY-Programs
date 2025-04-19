@@ -1,1 +1,4 @@
-Hello, this is a sample file.
+This is a single line written using the write() method.
+Line 1 written using writelines().
+Line 2 written using writelines().
+Line 3 written using writelines().
