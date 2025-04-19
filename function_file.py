@@ -48,18 +48,3 @@ print(f.read())
 f.close()
 print("\nFile closed.")
 
-# Write and writelines
-f = open("demo2.txt", "w")
-f.write("This is a single line.\n")  # write
-
-lines = ["Line A\n", "Line B\n", "Line C\n"]
-f.writelines(lines)  # writelines
-f.close()
-print("\nWrite and writelines done.")
-
-# Bonus: file.__next__() only works with iterators (Python 2), use next() in Python 3
-f = open("demo2.txt", "r")
-print("\nUsing next() to read lines one by one:")
-print(next(f).strip())
-print(next(f).strip())
-f.close()
