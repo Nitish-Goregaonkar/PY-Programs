@@ -1,0 +1,3 @@
+Hello from w+ mode
+Hello from append mode
+Hello from append and read mode
