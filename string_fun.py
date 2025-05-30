@@ -1,0 +1,17 @@
+str= " Nitish Goregaonkar  "
+print(len(str))
+print(type(str))
+str1= str.upper()
+print(str1)
+str2= str.lower()
+print(str2)
+str3=str.capitalize()
+print(str3)
+print(str.islower())
+print(str.isupper())
+print(str.title())
+print(str.strip())
+print(str.replace("Nitish","Nitesh"))
+print(str.find("Goregaonkar") )
+str4= "hello, my, name , is , abc"
+print(str4.split(","))
