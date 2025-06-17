@@ -143,7 +143,6 @@ def game(
             if ev.type == pygame.QUIT:
                 pygame.quit()
  
-
         # player control
         # keeps track of the key pressed
         keys = pygame.key.get_pressed()  
