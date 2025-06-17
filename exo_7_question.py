@@ -22,7 +22,6 @@ print("Dishes present in both categories:", common_dishes)
 is_subset = vegetarian_dishes.issubset(non_vegetarian_dishes)
 print("Is vegetarian_dishes a subset of non_vegetarian_dishes?", is_subset)
 
-
 # Take input for the first sentence
 sentence1 = input("Enter the first sentence: ")
 
