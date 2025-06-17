@@ -6,7 +6,6 @@ def get_vowels(sentence):
 sentence = input("Enter a sentence: ")
 print("Vowels present in the sentence:", get_vowels(sentence))
 
-
 # Define sets for vegetarian and non-vegetarian dishes
 vegetarian_dishes = {"Salad", "Paneer Tikka", "Vegetable Biryani", "Dal Tadka"}
 non_vegetarian_dishes = {"Chicken Biryani", "Fish Curry", "Dal Tadka", "Egg Curry"}
