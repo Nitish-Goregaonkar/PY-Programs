@@ -194,7 +194,6 @@ def game(
             e_p[1] = random.randint(enemy_size, height - enemy_size)
             e_p[0] = width
  
-
         # game over
         # collision detection
         if lead_x <= e_p[0] <= lead_x + 40 and lead_y >= e_p[1] >= lead_y - 40:
