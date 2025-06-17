@@ -1,7 +1,6 @@
 # Python program to demonstrate
 # 8 bit game
 
-
 import pygame
 import sys
 import random
