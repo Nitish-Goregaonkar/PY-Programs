@@ -130,7 +130,6 @@ def game_over():
 pygame.draw.rect(screen, startd, [100, height - 100, 40, 20])
 pygame.draw.rect(screen, startd, [width - 180, height - 100, 40, 50])
  
-
 # function for body of the game 
 def game(
     lead_y,
