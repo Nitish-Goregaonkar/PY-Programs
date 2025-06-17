@@ -319,7 +319,6 @@ def intro(
         clock.tick(60)
         pygame.display.update()
  
- 
 intro(
     colox_c1,
     colox_c2,
