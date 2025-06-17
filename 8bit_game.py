@@ -4,7 +4,6 @@ import pygame
 import sys
 import random
 
-
 # initialize the constructor
 pygame.init()
 res = (720, 720)
