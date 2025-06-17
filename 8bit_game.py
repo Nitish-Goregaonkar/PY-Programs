@@ -77,7 +77,6 @@ e1_p = [random.randint(width, width + 100), random.randint(50, height
  
 # function for game_over 
 def game_over():
-    
     while True:
         
         # if the player clicks the cross 
