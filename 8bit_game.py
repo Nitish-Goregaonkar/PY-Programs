@@ -245,7 +245,6 @@ def game(
         screen.blit(exit2, (width - 80, 0))
         pygame.display.update()
  
- 
 # intro
 def intro(
     colox_c1,
