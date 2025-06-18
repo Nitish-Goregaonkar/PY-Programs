@@ -40,4 +40,3 @@ print(f"The value of b after swapping: {b}")
 
 
 
-
