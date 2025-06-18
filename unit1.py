@@ -8,7 +8,6 @@ num = float(input("Enter a number: "))
 print("Square root:", square_root(num))
 
 
-
 def rectangle_area(length, width):
     return length * width
 
