@@ -24,7 +24,6 @@ else:
     print("not a perfect number",number)
 
 
-
 string1=input("enter string:-")
 if(string1==string1[::-1]):
     print("its palindrome")
