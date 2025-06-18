@@ -37,4 +37,3 @@ b = temp
 
 print(f"The value of a after swapping: {a}")
 print(f"The value of b after swapping: {b}")
-
