@@ -51,7 +51,6 @@ sketch.write("Left_player : 0    Right_player: 0",
 
 # Functions to move paddles
 
-
 def paddleaup():
     y = left_pad.ycor()
     if y < 250:  # Limit paddle movement
