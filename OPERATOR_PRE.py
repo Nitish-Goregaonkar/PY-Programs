@@ -17,7 +17,6 @@ print("4. Exponentiation **:", 2 ** 3 ** 2)
 # 5. Unary Operators (+, -, ~)
 print("5. Unary +, -, ~:", -(-5), +(-3), ~2)
 
-
 # 6. Multiplication, Division, Modulus, Floor Division (Left-to-right)
 print("6. Multiplication, Division, Modulus, Floor Division:", 10 * 2 / 5, 10 // 3, 10 % 3)
 
