@@ -35,7 +35,6 @@ def generate_madlib():
       f"While there, they had an unexpected encounter and ended up {verb_ing} with a tasty {food}. "
       f"It turned out to be an unforgettable adventure, filled with excitement and {verb_ing}!")
 
-    
    # Display the story in a message box
    messagebox.showinfo("Your Mad Libs Story", story)
 
