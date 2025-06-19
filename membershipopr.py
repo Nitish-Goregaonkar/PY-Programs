@@ -14,5 +14,3 @@ print("Python" in x)
 #false
 
 
-
-
