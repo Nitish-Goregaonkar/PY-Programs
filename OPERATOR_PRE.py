@@ -39,7 +39,6 @@ print("11. Bitwise OR:", 5 | 3)
 # 12. Comparison, Membership, Identity Operators (Left-to-right)
 print("12. Comparison, Membership, Identity:", 5 > 3, 5 == 5, 3 in [1, 2, 3], 5 is not 4)
 
-
 # 16. Conditional Expression (Right-to-left)
 print("16. Conditional Expression:", "Yes" if 5 > 3 else "No")
 
