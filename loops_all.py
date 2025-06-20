@@ -50,4 +50,3 @@ while(n >=l):
     print(n)
     n= n-k
 
-
