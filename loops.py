@@ -25,4 +25,3 @@ while i <= rows:
         j += 1 
 print()  # New line after each row 
 i += 1 
-
