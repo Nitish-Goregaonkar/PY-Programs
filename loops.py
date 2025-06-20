@@ -15,7 +15,6 @@ for i in range(1, 6):
         print(f"{i} x {j} = {i * j}", end='\t') 
     print()  # New line after each inner loop iteration
 
-
 # Example: Nested while loop to print a right-angle triangle 
 rows = 5 
 i = 1 
