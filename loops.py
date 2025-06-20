@@ -4,7 +4,6 @@ while number <= 5:
     print(f"While Loop: {number}") 
     number += 1
 
-
 # Example: Using a for loop to print elements of a list 
 fruits = ['apple', 'banana', 'cherry'] 
 for fruit in fruits: 
