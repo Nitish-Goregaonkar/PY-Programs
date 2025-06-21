@@ -5,4 +5,3 @@ my_list[1] = 25 # Changing the second element
 print(my_list) # Output: [10, 25, 30] 
 
 
-
