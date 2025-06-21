@@ -9,4 +9,3 @@ print(my_list) # Output: [10, 25, 30]
 
 
 
-
