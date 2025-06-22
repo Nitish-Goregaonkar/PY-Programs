@@ -12,4 +12,3 @@ def show_info(self):
 person1 = Person() 
 person1.show_info()
 
-
