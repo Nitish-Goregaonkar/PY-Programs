@@ -14,4 +14,3 @@ tuple2 = (8, 6, 4, 3)
 # Concatenating tuples
 concatenated_tuple = tuple1 + tuple2
 print("Concatenated tuple:", concatenated_tuple)
-
