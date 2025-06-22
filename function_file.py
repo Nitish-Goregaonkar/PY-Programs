@@ -47,4 +47,3 @@ print(f.read())
 
 f.close()
 print("\nFile closed.")
-
