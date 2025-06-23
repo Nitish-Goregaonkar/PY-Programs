@@ -10,4 +10,3 @@ n = int(input("Enter number of rows: "))
 pascals_triangle(n)
 
 
-
