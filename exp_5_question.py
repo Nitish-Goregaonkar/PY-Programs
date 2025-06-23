@@ -36,7 +36,6 @@ print("Reversed with recursion:", reverse_with_recursion(original_list))
 print("Reversed with reduce:", reverse_with_reduce(original_list))
 
 
-
 # Program to find the maximum and minimum elements in a list
 
 def find_max_min(lst):
