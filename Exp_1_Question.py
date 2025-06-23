@@ -11,7 +11,6 @@ print("*", "*", "*", sep=" ", end="\n\n")
 print("*", "*", "*", "*", sep=" ", end="\n\n")
 
 
-
 # Input: Get a string from the user
 user_input = input("Enter a string: ")
 
