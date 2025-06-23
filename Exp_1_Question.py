@@ -61,4 +61,3 @@ result = calculateSumN(10)
 print("Sum =", result)
 
 
-
