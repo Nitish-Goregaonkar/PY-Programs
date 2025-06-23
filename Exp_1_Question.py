@@ -44,7 +44,6 @@ print("sum of first",n,"natural number is ", sum_of_numbers)
 
 
 #using function calculating the sum of 10 natural numbers 
-
 from colorama import Fore
 #printing the below stattement in red color using colorama library
 print(Fore.RED +"program to find the sum of n natural numbers using a function:-"+Fore.RESET)
