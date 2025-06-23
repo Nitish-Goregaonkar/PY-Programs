@@ -48,7 +48,6 @@ print("Maximum:", max_val)
 print("Minimum:", min_val)
 
 
-
 # Program to count the frequency of each element in a list
 
 # Sample list
