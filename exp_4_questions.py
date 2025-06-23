@@ -9,4 +9,3 @@ def pascals_triangle(n):
 n = int(input("Enter number of rows: "))
 pascals_triangle(n)
 
-
