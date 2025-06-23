@@ -49,7 +49,6 @@ print("Minimum:", min_val)
 
 
 # Program to count the frequency of each element in a list
-
 # Sample list
 elements = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
 
