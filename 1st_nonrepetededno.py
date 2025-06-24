@@ -6,4 +6,3 @@ def first_non_repeating_character(s):
 
 # Example usage:
 print(first_non_repeating_character("swiss"))
-
