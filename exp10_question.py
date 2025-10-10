@@ -15,7 +15,6 @@ price = float(input("Enter book price: "))
 #creating object of book class
 book = Book(name, author, price)
 book.display_details()
-
 # BankAccount class with user input and conditional balance assignment
 class BankAccount:
     #creating the constructor
