@@ -27,7 +27,6 @@ class BankAccount:
 #taking input from user:- 2 account numbers with there balance
 account_number1 = input("Enter first account number: ")
 balance1 = float(input("Enter first account balance: "))
-
 account_number2 = input("Enter second account number: ")
 balance2 = float(input("Enter second account balance: "))
 #creating the 2 objects of the bankaccount class
