@@ -4,7 +4,6 @@ class Demo:
 
 # Create an object
 obj = Demo()
-
 # Call the method without passing arguments
 obj.greet()
 
