@@ -5,6 +5,5 @@ class Demo:
 obj = Demo()
 # Call the method without passing arguments
 obj.greet()
-
 # Call the method by passing an argument
 obj.greet("Alice")
