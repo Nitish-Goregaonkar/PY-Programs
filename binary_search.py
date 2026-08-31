@@ -9,5 +9,3 @@ def binary_search(arr, target):
         else:
             return mid
     return -1
-
-    
